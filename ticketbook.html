@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="ticketbook.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="bg2.jpg.webp" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="ticketbook.html">Book Ticket</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="booking-form">
+        <h1>Book Your Ticket</h1>
+        <form id="ticket-form" action="avaitic.html" method="get">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required />
+
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required />
+
+          <label for="tickets">Number of Tickets:</label>
+          <input
+            type="number"
+            id="tickets"
+            name="tickets"
+            min="1"
+            max="10"
+            required
+          />
+
+          <button type="submit">Book Now</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Online Ticket Reservation. All rights reserved.</p>
+      <p>Email: contact@ticketreservation.com | Phone: +1 234 567 890</p>
+    </footer>
+    <script src="ticketbook.js"></script>
+  </body>
+</html>
