@@ -1,2 +1,2 @@
-# Project1
-Simple online booking page
+# booking wepage
+A Basic online booking page which stores the deatils of booking
